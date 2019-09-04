@@ -1242,3 +1242,482 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.09.04-15.33.19:022][162]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Grass_BuiltData" FILE="E:/UnrealProject/TT3D/TT3D/Content/Maps/Grass_BuiltData.uasset" SILENT=true
 [2019.09.04-15.33.19:145][162]LogSavePackage: Moving 'E:/UnrealProject/TT3D/TT3D/Saved/Grass_BuiltData2F27794A42541C8841B7F1A20FCF94F4.tmp' to 'E:/UnrealProject/TT3D/TT3D/Content/Maps/Grass_BuiltData.uasset'
 [2019.09.04-15.33.19:152][162]LogFileHelpers: Saving map 'Grass' took 0.537
+[2019.09.04-15.36.59:402][947]LogHttp: Warning: 0000021E7B204680: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2019.09.04-15.36.59:402][947]LogHttp: Warning: 0000021E7B204680: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x21e1155ff70 [can pipeline])
+[2019.09.04-15.36.59:402][947]LogHttp: Warning: 0000021E7B204680: libcurl info message cache 1 (Re-using existing connection! (#9) with host datarouter.ol.epicgames.com)
+[2019.09.04-15.36.59:402][947]LogHttp: Warning: 0000021E7B204680: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.54.243.91) port 443 (#9))
+[2019.09.04-15.36.59:402][947]LogHttp: Warning: 0000021E7B204680: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.09.04-15.36.59:403][947]LogHttp: Warning: 0000021E7B204680: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2019.09.04-15.36.59:403][947]LogHttp: Warning: 0000021E7B204680: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.09.04-15.36.59:403][947]LogHttp: Warning: 0000021E7B204680: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.09.04-15.36.59:403][947]LogHttp: Warning: 0000021E7B204680: libcurl info message cache 7 (Closing connection 9)
+[2019.09.04-15.36.59:738][948]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD324DE89-4CB4-0AF7-9EF7-DB8DE7E4B8AC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=c9c02d5e4a9e9b6d234bd69798ae7005%7Ca7a0faec5b7e43b086de044e32fa7dab%7C6d60a67e-3c99-4a76-b07a-42ebf8dbb4ea&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.04-15.38.44:791][456]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2019.09.04-15.38.44:831][456]LogSlate: Window 'TT3D - Unreal Editor' being destroyed
+[2019.09.04-15.38.45:005][457]Cmd: QUIT_EDITOR
+[2019.09.04-15.38.45:252][457]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (微软拼音).
+[2019.09.04-15.38.45:262][457]LogExit: Preparing to exit.
+[2019.09.04-15.38.46:173][457]LogExit: Editor shut down
+[2019.09.04-15.38.46:173][457]LogExit: Transaction tracking system shut down
+[2019.09.04-15.38.46:332][457]LogExit: Object subsystem successfully closed.
+[2019.09.04-15.38.46:352][457]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.09.04-15.38.46:355][457]LogD3D11RHI: Shutdown
+[2019.09.04-15.38.46:355][457]LogD3D11RHI: CleanupD3DDevice
+[2019.09.04-15.38.46:384][457]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.09.04-15.38.46:384][457]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.09.04-15.38.46:384][457]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.09.04-15.38.46:384][457]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.09.04-15.38.46:384][457]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.09.04-15.38.46:384][457]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.09.04-15.38.46:461][457]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.09.04-15.38.46:472][457]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (648)
+[2019.09.04-15.38.46:472][457]LogModuleManager: Shutting down and abandoning module Voice (646)
+[2019.09.04-15.38.46:472][457]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (644)
+[2019.09.04-15.38.46:472][457]LogModuleManager: Shutting down and abandoning module SceneOutliner (642)
+[2019.09.04-15.38.46:472][457]LogModuleManager: Shutting down and abandoning module AddContentDialog (640)
+[2019.09.04-15.38.46:474][457]LogModuleManager: Shutting down and abandoning module WidgetCarousel (639)
+[2019.09.04-15.38.46:474][457]LogModuleManager: Shutting down and abandoning module CollectionManager (636)
+[2019.09.04-15.38.46:474][457]LogModuleManager: Shutting down and abandoning module EditorWidgets (634)
+[2019.09.04-15.38.46:474][457]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (632)
+[2019.09.04-15.38.46:474][457]LogModuleManager: Shutting down and abandoning module StatsViewer (630)
+[2019.09.04-15.38.46:474][457]LogModuleManager: Shutting down and abandoning module FoliageEdit (628)
+[2019.09.04-15.38.46:474][457]LogModuleManager: Shutting down and abandoning module LandscapeEditor (626)
+[2019.09.04-15.38.46:474][457]LogModuleManager: Shutting down and abandoning module MeshPaintMode (624)
+[2019.09.04-15.38.46:474][457]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (622)
+[2019.09.04-15.38.46:474][457]LogModuleManager: Shutting down and abandoning module ActorPickerMode (620)
+[2019.09.04-15.38.46:474][457]LogModuleManager: Shutting down and abandoning module GeometryMode (618)
+[2019.09.04-15.38.46:474][457]LogModuleManager: Shutting down and abandoning module TextureAlignMode (616)
+[2019.09.04-15.38.46:474][457]LogModuleManager: Shutting down and abandoning module BspMode (614)
+[2019.09.04-15.38.46:474][457]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (612)
+[2019.09.04-15.38.46:474][457]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (610)
+[2019.09.04-15.38.46:474][457]LogModuleManager: Shutting down and abandoning module AutomationWorker (608)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module OculusMR (606)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (604)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (602)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (600)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module PlacementMode (599)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module MaterialEditor (598)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (594)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (592)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (590)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (588)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (586)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module WebMMedia (584)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (582)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (580)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module SequenceRecorder (579)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (576)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (574)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (572)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (570)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (568)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (566)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (564)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (562)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (560)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (558)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (556)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module CharacterAI (554)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module SmartSnapping (552)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module SessionServices (550)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module MeshPaint (548)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module ViewportSnapping (546)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module ViewportInteraction (544)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module ClothPainter (542)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (541)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module LogVisualizer (538)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module IntroTutorials (536)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (535)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (532)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (530)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (528)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (526)
+[2019.09.04-15.38.46:475][457]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (525)
+[2019.09.04-15.38.47:469][457]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (522)
+[2019.09.04-15.38.47:469][457]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (520)
+[2019.09.04-15.38.47:469][457]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (518)
+[2019.09.04-15.38.47:469][457]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (516)
+[2019.09.04-15.38.47:469][457]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (514)
+[2019.09.04-15.38.47:469][457]LogModuleManager: Shutting down and abandoning module InputBindingEditor (512)
+[2019.09.04-15.38.47:469][457]LogModuleManager: Shutting down and abandoning module MergeActors (510)
+[2019.09.04-15.38.47:469][457]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (508)
+[2019.09.04-15.38.47:469][457]LogModuleManager: Shutting down and abandoning module LocalizationService (507)
+[2019.09.04-15.38.47:469][457]LogModuleManager: Shutting down and abandoning module HardwareTargeting (504)
+[2019.09.04-15.38.47:469][457]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (502)
+[2019.09.04-15.38.47:469][457]LogModuleManager: Shutting down and abandoning module UndoHistory (500)
+[2019.09.04-15.38.47:469][457]LogModuleManager: Shutting down and abandoning module XmlParser (498)
+[2019.09.04-15.38.47:470][457]LogModuleManager: Shutting down and abandoning module Blutility (496)
+[2019.09.04-15.38.47:470][457]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (494)
+[2019.09.04-15.38.47:470][457]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (493)
+[2019.09.04-15.38.47:470][457]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (490)
+[2019.09.04-15.38.47:470][457]LogModuleManager: Shutting down and abandoning module SettingsEditor (488)
+[2019.09.04-15.38.47:470][457]LogModuleManager: Shutting down and abandoning module ProjectLauncher (486)
+[2019.09.04-15.38.47:470][457]LogModuleManager: Shutting down and abandoning module SessionFrontend (484)
+[2019.09.04-15.38.47:470][457]LogModuleManager: Shutting down and abandoning module ProfilerClient (482)
+[2019.09.04-15.38.47:470][457]LogModuleManager: Shutting down and abandoning module DeviceManager (480)
+[2019.09.04-15.38.47:470][457]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (479)
+[2019.09.04-15.38.47:513][457]LogModuleManager: Shutting down and abandoning module AutomationController (476)
+[2019.09.04-15.38.47:513][457]LogModuleManager: Shutting down and abandoning module AutomationWindow (474)
+[2019.09.04-15.38.47:513][457]LogModuleManager: Shutting down and abandoning module Layers (472)
+[2019.09.04-15.38.47:513][457]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (470)
+[2019.09.04-15.38.47:513][457]LogModuleManager: Shutting down and abandoning module DetailCustomizations (468)
+[2019.09.04-15.38.47:513][457]LogModuleManager: Shutting down and abandoning module PackagesDialog (466)
+[2019.09.04-15.38.47:513][457]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (464)
+[2019.09.04-15.38.47:513][457]LogModuleManager: Shutting down and abandoning module Persona (462)
+[2019.09.04-15.38.47:513][457]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (461)
+[2019.09.04-15.38.47:513][457]LogModuleManager: Shutting down and abandoning module AnimGraph (459)
+[2019.09.04-15.38.47:513][457]LogModuleManager: Shutting down and abandoning module Kismet (456)
+[2019.09.04-15.38.47:514][457]LogModuleManager: Shutting down and abandoning module GraphEditor (454)
+[2019.09.04-15.38.47:514][457]LogModuleManager: Shutting down and abandoning module ClassViewer (452)
+[2019.09.04-15.38.47:514][457]LogModuleManager: Shutting down and abandoning module Toolbox (450)
+[2019.09.04-15.38.47:514][457]LogModuleManager: Shutting down and abandoning module ModuleUI (448)
+[2019.09.04-15.38.47:514][457]LogModuleManager: Shutting down and abandoning module MovieSceneTools (446)
+[2019.09.04-15.38.47:515][457]LogModuleManager: Shutting down and abandoning module OutputLog (444)
+[2019.09.04-15.38.47:515][457]LogModuleManager: Shutting down and abandoning module GammaUI (442)
+[2019.09.04-15.38.47:515][457]LogModuleManager: Shutting down and abandoning module Documentation (440)
+[2019.09.04-15.38.47:515][457]LogModuleManager: Shutting down and abandoning module LiveCoding (438)
+[2019.09.04-15.38.47:515][457]LogModuleManager: Shutting down and abandoning module LevelSequence (436)
+[2019.09.04-15.38.47:515][457]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (434)
+[2019.09.04-15.38.47:515][457]LogModuleManager: Shutting down and abandoning module MovieScene (432)
+[2019.09.04-15.38.47:515][457]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (430)
+[2019.09.04-15.38.47:515][457]LogModuleManager: Shutting down and abandoning module LauncherPlatform (428)
+[2019.09.04-15.38.47:515][457]LogModuleManager: Shutting down and abandoning module AnalyticsET (426)
+[2019.09.04-15.38.47:515][457]LogModuleManager: Shutting down and abandoning module PortalServices (424)
+[2019.09.04-15.38.47:515][457]LogModuleManager: Shutting down and abandoning module PortalRpc (422)
+[2019.09.04-15.38.47:515][457]LogModuleManager: Shutting down and abandoning module MessagingRpc (420)
+[2019.09.04-15.38.47:515][457]LogModuleManager: Shutting down and abandoning module AIModule (418)
+[2019.09.04-15.38.47:515][457]LogModuleManager: Shutting down and abandoning module GameplayDebugger (417)
+[2019.09.04-15.38.47:515][457]LogModuleManager: Shutting down and abandoning module AITestSuite (415)
+[2019.09.04-15.38.47:515][457]LogModuleManager: Shutting down and abandoning module NavigationSystem (413)
+[2019.09.04-15.38.47:515][457]LogModuleManager: Shutting down and abandoning module DesktopPlatform (410)
+[2019.09.04-15.38.47:515][457]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (408)
+[2019.09.04-15.38.47:518][457]LogModuleManager: Shutting down and abandoning module ProfilerService (406)
+[2019.09.04-15.38.47:701][457]LogModuleManager: Shutting down and abandoning module TaskGraph (404)
+[2019.09.04-15.38.47:701][457]LogModuleManager: Shutting down and abandoning module SteamVRController (402)
+[2019.09.04-15.38.47:701][457]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (400)
+[2019.09.04-15.38.47:701][457]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (398)
+[2019.09.04-15.38.47:701][457]LogModuleManager: Shutting down and abandoning module OculusEditor (396)
+[2019.09.04-15.38.47:701][457]LogModuleManager: Shutting down and abandoning module OculusInput (394)
+[2019.09.04-15.38.47:701][457]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (392)
+[2019.09.04-15.38.47:701][457]LogModuleManager: Shutting down and abandoning module EditableMesh (390)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (388)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module CableComponent (386)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module AudioCapture (384)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (382)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module AndroidPermission (380)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (378)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (376)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module MediaCompositing (374)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module LinearTimecode (372)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module ImgMedia (370)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (368)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (366)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (364)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (352)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module AppleImageUtils (350)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module AlembicImporter (348)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module AlembicLibrary (347)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module GeometryCache (346)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (345)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module VariantManagerContent (340)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (338)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (336)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module PluginBrowser (334)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (332)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (330)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (308)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (306)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (304)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (302)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (300)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (298)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module Paper2DEditor (296)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module SignificanceManager (294)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (292)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (290)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module PhysXVehicles (288)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.09.04-15.38.47:702][457]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.09.04-15.38.47:703][457]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.09.04-15.38.47:803][457]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.09.04-15.38.47:903][457]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (278)
+[2019.09.04-15.38.47:903][457]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (276)
+[2019.09.04-15.38.47:903][457]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (274)
+[2019.09.04-15.38.47:903][457]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (272)
+[2019.09.04-15.38.47:903][457]LogModuleManager: Shutting down and abandoning module MagicLeapController (270)
+[2019.09.04-15.38.47:903][457]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.09.04-15.38.47:903][457]LogModuleManager: Shutting down and abandoning module MagicLeapAR (268)
+[2019.09.04-15.38.47:903][457]LogModuleManager: Shutting down and abandoning module AugmentedReality (267)
+[2019.09.04-15.38.47:903][457]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (264)
+[2019.09.04-15.38.47:903][457]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (262)
+[2019.09.04-15.38.47:903][457]LogModuleManager: Shutting down and abandoning module FacialAnimation (260)
+[2019.09.04-15.38.47:903][457]LogModuleManager: Shutting down and abandoning module DataValidation (258)
+[2019.09.04-15.38.47:903][457]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (256)
+[2019.09.04-15.38.47:903][457]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2019.09.04-15.38.47:904][457]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2019.09.04-15.38.47:904][457]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (252)
+[2019.09.04-15.38.47:904][457]LogModuleManager: Shutting down and abandoning module MainFrame (250)
+[2019.09.04-15.38.47:904][457]LogModuleManager: Shutting down and abandoning module HotReload (249)
+[2019.09.04-15.38.47:904][457]LogModuleManager: Shutting down and abandoning module ContentBrowser (245)
+[2019.09.04-15.38.47:905][457]LogModuleManager: Shutting down and abandoning module TreeMap (243)
+[2019.09.04-15.38.47:905][457]LogModuleManager: Shutting down and abandoning module AnimationSharing (240)
+[2019.09.04-15.38.47:905][457]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2019.09.04-15.38.47:905][457]LogModuleManager: Shutting down and abandoning module AISupportModule (236)
+[2019.09.04-15.38.47:905][457]LogModuleManager: Shutting down and abandoning module Paper2D (234)
+[2019.09.04-15.38.47:905][457]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
+[2019.09.04-15.38.47:905][457]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (230)
+[2019.09.04-15.38.47:905][457]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2019.09.04-15.38.47:905][457]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2019.09.04-15.38.47:905][457]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2019.09.04-15.38.47:905][457]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2019.09.04-15.38.47:905][457]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2019.09.04-15.38.47:905][457]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2019.09.04-15.38.47:905][457]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2019.09.04-15.38.47:905][457]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2019.09.04-15.38.47:905][457]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2019.09.04-15.38.47:905][457]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2019.09.04-15.38.47:905][457]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2019.09.04-15.38.47:905][457]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2019.09.04-15.38.47:905][457]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2019.09.04-15.38.47:905][457]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2019.09.04-15.38.47:905][457]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2019.09.04-15.38.47:905][457]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2019.09.04-15.38.47:906][457]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2019.09.04-15.38.47:906][457]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2019.09.04-15.38.47:906][457]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2019.09.04-15.38.47:906][457]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2019.09.04-15.38.47:907][457]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2019.09.04-15.38.47:907][457]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2019.09.04-15.38.47:907][457]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2019.09.04-15.38.47:907][457]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2019.09.04-15.38.47:907][457]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2019.09.04-15.38.47:907][457]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2019.09.04-15.38.47:907][457]LogModuleManager: Shutting down and abandoning module Core (174)
+[2019.09.04-15.38.47:907][457]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2019.09.04-15.38.47:907][457]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2019.09.04-15.38.47:907][457]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2019.09.04-15.38.47:907][457]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2019.09.04-15.38.47:907][457]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2019.09.04-15.38.47:907][457]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2019.09.04-15.38.47:907][457]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2019.09.04-15.38.47:907][457]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2019.09.04-15.38.47:907][457]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2019.09.04-15.38.47:938][457]LogDerivedDataCache: Shutdown
+[2019.09.04-15.38.47:938][457]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2019.09.04-15.38.47:938][457]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2019.09.04-15.38.47:938][457]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2019.09.04-15.38.47:938][457]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2019.09.04-15.38.47:938][457]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2019.09.04-15.38.47:938][457]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2019.09.04-15.38.47:938][457]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2019.09.04-15.38.47:938][457]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2019.09.04-15.38.47:938][457]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2019.09.04-15.38.47:938][457]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2019.09.04-15.38.47:938][457]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2019.09.04-15.38.47:939][457]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2019.09.04-15.38.47:939][457]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2019.09.04-15.38.47:939][457]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2019.09.04-15.38.47:939][457]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2019.09.04-15.38.47:939][457]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2019.09.04-15.38.47:939][457]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2019.09.04-15.38.47:939][457]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2019.09.04-15.38.47:939][457]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2019.09.04-15.38.47:939][457]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2019.09.04-15.38.47:939][457]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2019.09.04-15.38.47:939][457]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2019.09.04-15.38.47:939][457]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2019.09.04-15.38.47:940][457]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2019.09.04-15.38.47:940][457]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2019.09.04-15.38.47:940][457]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2019.09.04-15.38.47:940][457]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2019.09.04-15.38.47:944][457]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2019.09.04-15.38.47:944][457]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2019.09.04-15.38.47:944][457]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2019.09.04-15.38.47:944][457]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2019.09.04-15.38.47:944][457]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2019.09.04-15.38.47:944][457]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2019.09.04-15.38.47:944][457]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2019.09.04-15.38.47:945][457]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2019.09.04-15.38.47:945][457]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2019.09.04-15.38.47:945][457]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2019.09.04-15.38.47:945][457]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2019.09.04-15.38.47:945][457]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2019.09.04-15.38.47:945][457]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2019.09.04-15.38.47:945][457]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2019.09.04-15.38.47:945][457]LogHMD: Freeing OpenVRDLLHandle.
+[2019.09.04-15.38.47:945][457]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2019.09.04-15.38.47:945][457]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2019.09.04-15.38.47:945][457]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2019.09.04-15.38.47:945][457]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2019.09.04-15.38.47:945][457]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2019.09.04-15.38.47:946][457]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2019.09.04-15.38.47:946][457]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2019.09.04-15.38.47:969][457]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2019.09.04-15.38.47:969][457]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.09.04-15.38.47:969][457]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD324DE89-4CB4-0AF7-9EF7-DB8DE7E4B8AC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=c9c02d5e4a9e9b6d234bd69798ae7005%7Ca7a0faec5b7e43b086de044e32fa7dab%7C6d60a67e-3c99-4a76-b07a-42ebf8dbb4ea&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.09.04-15.38.47:969][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.38.48:470][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.38.48:970][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.38.49:471][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.38.49:972][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.38.50:472][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.38.50:973][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.38.51:473][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.38.51:974][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.38.52:475][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.38.52:976][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.38.53:477][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.38.53:977][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.38.54:478][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.38.54:978][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.38.55:479][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.38.55:980][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.38.56:480][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.38.56:981][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.38.57:481][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.38.57:982][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.38.58:482][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.38.58:983][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.38.59:483][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.38.59:984][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.00:484][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.00:985][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.01:485][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.01:986][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.02:486][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.02:987][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.03:487][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.03:988][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.04:489][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.04:990][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.05:490][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.05:991][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.06:491][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.06:992][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.07:493][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.07:994][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.08:495][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.08:996][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.09:497][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.09:997][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.10:498][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.10:999][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.11:499][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.12:000][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.12:501][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.13:002][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.13:502][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.14:003][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.14:503][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.15:004][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.15:504][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.16:005][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.16:505][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.17:005][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.17:506][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.18:007][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.18:508][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.19:009][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.19:509][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.20:010][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.20:511][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.21:011][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.21:512][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.22:013][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.22:514][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.23:014][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.23:515][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.24:015][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.24:516][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.25:016][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.25:517][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.26:018][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.26:518][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.27:019][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.27:520][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.28:021][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.28:521][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.29:022][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.29:522][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.30:023][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.30:524][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.31:025][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.31:525][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.32:026][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.32:527][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.33:027][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.33:528][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.34:029][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.34:529][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.35:030][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.35:531][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.36:031][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.36:532][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.37:033][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.37:533][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.38:034][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.38:535][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.39:036][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.39:536][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.40:037][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.40:537][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.41:038][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.41:539][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.42:040][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.42:541][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.43:041][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.43:542][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.44:043][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.44:544][457]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2019.09.04-15.39.45:045][457]LogHttp: Warning: 0000021E7B204F40: request failed, libcurl error: 28 (Timeout was reached)
+[2019.09.04-15.39.45:045][457]LogHttp: Warning: 0000021E7B204F40: libcurl info message cache 0 (  Trying 52.3.90.181...)
+[2019.09.04-15.39.45:045][457]LogHttp: Warning: 0000021E7B204F40: libcurl info message cache 1 (TCP_NODELAY set)
+[2019.09.04-15.39.45:045][457]LogHttp: Warning: 0000021E7B204F40: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.3.90.181) port 443 (#10))
+[2019.09.04-15.39.45:045][457]LogHttp: Warning: 0000021E7B204F40: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2019.09.04-15.39.45:045][457]LogHttp: Warning: 0000021E7B204F40: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.04-15.39.45:045][457]LogHttp: Warning: 0000021E7B204F40: libcurl info message cache 5 (SSL re-using session ID)
+[2019.09.04-15.39.45:045][457]LogHttp: Warning: 0000021E7B204F40: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.04-15.39.45:045][457]LogHttp: Warning: 0000021E7B204F40: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2019.09.04-15.39.45:045][457]LogHttp: Warning: 0000021E7B204F40: libcurl info message cache 8 (Operation timed out after 60000 milliseconds with 0 out of 0 bytes received)
+[2019.09.04-15.39.45:045][457]LogHttp: Warning: 0000021E7B204F40: libcurl info message cache 9 (Closing connection 10)
+[2019.09.04-15.39.45:076][457]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2019.09.04-15.39.45:077][457]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2019.09.04-15.39.45:079][457]LogModuleManager: Shutting down and abandoning module Media (45)
+[2019.09.04-15.39.45:085][457]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2019.09.04-15.39.45:085][457]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2019.09.04-15.39.45:085][457]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.09.04-15.39.45:085][457]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.09.04-15.39.45:085][457]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.09.04-15.39.45:086][457]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.09.04-15.39.45:086][457]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.09.04-15.39.45:086][457]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.09.04-15.39.45:086][457]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.09.04-15.39.45:086][457]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.09.04-15.39.45:086][457]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.09.04-15.39.45:086][457]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.09.04-15.39.45:086][457]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.09.04-15.39.45:086][457]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.09.04-15.39.45:086][457]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.09.04-15.39.45:086][457]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.09.04-15.39.45:086][457]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.09.04-15.39.45:086][457]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.09.04-15.39.45:086][457]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.09.04-15.39.45:086][457]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.09.04-15.39.45:086][457]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.09.04-15.39.45:097][457]LogExit: Exiting.
+[2019.09.04-15.39.45:153][457]Log file closed, 09/04/19 23:39:45
