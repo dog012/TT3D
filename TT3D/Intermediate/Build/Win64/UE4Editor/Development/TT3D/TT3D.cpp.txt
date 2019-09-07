@@ -1,0 +1,2 @@
+E:\UnrealProject\TT3D\TT3D\Intermediate\Build\Win64\UE4Editor\Development\TT3D\Definitions.TT3D.h
+e:\unrealproject\tt3d\tt3d\source\tt3d\TT3D.h

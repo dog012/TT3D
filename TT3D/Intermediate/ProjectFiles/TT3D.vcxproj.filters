@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TT3D.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{1D17DCB3-D278-463E-8D7C-7DC9ABAA40F3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TT3D.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TT3DEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{391DA34F-8086-4E24-9013-16D686C6CF10}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TT3D">
+      <UniqueIdentifier>{38DC5E6E-2637-4BFD-8A64-B95416C4D01A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TT3D\TT3D.Build.cs">
+      <Filter>Source\TT3D</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TT3D\TT3D.cpp">
+      <Filter>Source\TT3D</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TT3D\TT3D.h">
+      <Filter>Source\TT3D</Filter>
+    </ClInclude>
+    <Filter Include="Source\TT3D\Private">
+      <UniqueIdentifier>{955C16F4-5ADB-42A2-806B-8159F591AC0B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TT3D\Private\TankPlayerController.cpp">
+      <Filter>Source\TT3D\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\TT3D\Public">
+      <UniqueIdentifier>{B1620013-4909-4907-A9D2-347694D8835B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\TT3D\Public\TankPlayerController.h">
+      <Filter>Source\TT3D\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\TT3D\Public\Tank.h">
+      <Filter>Source\TT3D\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TT3D\Public\TankAIController.h">
+      <Filter>Source\TT3D\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\TT3D\Private\Tank.cpp">
+      <Filter>Source\TT3D\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TT3D\Private\TankAIController.cpp">
+      <Filter>Source\TT3D\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
