@@ -1,0 +1,14 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\UnrealProject\TT3D).
+  Creating makefile for TT3DEditor (ini files are newer than makefile)
+  Parsing headers for TT3DEditor
+    Running UnrealHeaderTool "E:\UnrealProject\TT3D\TT3D\TT3D.uproject" "E:\UnrealProject\TT3D\TT3D\Intermediate\Build\Win64\TT3DEditor\Development\TT3DEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for TT3DEditor in 5.7433695 seconds
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 3 actions with 12 processes...
+    [1/3] UE4Editor-TT3D-0071.lib
+      正在创建库 E:\UnrealProject\TT3D\TT3D\Intermediate\Build\Win64\UE4Editor\Development\TT3D\UE4Editor-TT3D-0071.lib 和对象 E:\UnrealProject\TT3D\TT3D\Intermediate\Build\Win64\UE4Editor\Development\TT3D\UE4Editor-TT3D-0071.exp
+    [2/3] UE4Editor-TT3D-0071.dll
+      正在创建库 E:\UnrealProject\TT3D\TT3D\Intermediate\Build\Win64\UE4Editor\Development\TT3D\UE4Editor-TT3D-0071.suppressed.lib 和对象 E:\UnrealProject\TT3D\TT3D\Intermediate\Build\Win64\UE4Editor\Development\TT3D\UE4Editor-TT3D-0071.suppressed.exp
+    [3/3] TT3DEditor.target
+  Total time in Parallel executor: 1.27 seconds
+  Total execution time: 8.75 seconds

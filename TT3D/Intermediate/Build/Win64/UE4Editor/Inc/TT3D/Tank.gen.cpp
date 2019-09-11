@@ -17,9 +17,39 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 	TT3D_API UClass* Z_Construct_UClass_ATank();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_TT3D();
+	TT3D_API UFunction* Z_Construct_UFunction_ATank_Fire();
 // End Cross Module References
 	void ATank::StaticRegisterNativesATank()
 	{
+		UClass* Class = ATank::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "Fire", &ATank::execFire },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ATank_Fire_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATank_Fire_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Fire" },
+		{ "ModuleRelativePath", "Public/Tank.h" },
+		{ "ToolTip", "UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = \"Fire\")\nULauncher* Launcher = nullptr;" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATank_Fire_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATank, nullptr, "Fire", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATank_Fire_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ATank_Fire_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATank_Fire()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATank_Fire_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_ATank_NoRegister()
 	{
@@ -28,6 +58,7 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 	struct Z_Construct_UClass_ATank_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -37,6 +68,9 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 	UObject* (*const Z_Construct_UClass_ATank_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_APawn,
 		(UObject* (*)())Z_Construct_UPackage__Script_TT3D,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_ATank_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ATank_Fire, "Fire" }, // 459572595
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATank_Statics::Class_MetaDataParams[] = {
@@ -53,11 +87,11 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 		nullptr,
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		nullptr,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
-		0,
+		ARRAY_COUNT(FuncInfo),
 		0,
 		0,
 		0x009000A0u,
@@ -72,7 +106,7 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATank, 3242910325);
+	IMPLEMENT_CLASS(ATank, 2789590134);
 	template<> TT3D_API UClass* StaticClass<ATank>()
 	{
 		return ATank::StaticClass();

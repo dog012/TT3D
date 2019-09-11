@@ -6,6 +6,8 @@
 #include "GameFramework/Pawn.h"
 #include "Tank.generated.h"
 
+class ULauncher;
+
 UCLASS()
 class TT3D_API ATank : public APawn
 {
@@ -26,4 +28,9 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Fire")
+	//ULauncher* Launcher = nullptr;
+
+	UFUNCTION(BlueprintCallable, Category = "Fire")
+	void Fire();
 };

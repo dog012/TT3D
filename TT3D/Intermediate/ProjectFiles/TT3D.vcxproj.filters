@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TT3D.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{1D17DCB3-D278-463E-8D7C-7DC9ABAA40F3}</UniqueIdentifier>
+      <UniqueIdentifier>{D99621FE-E949-4217-9D31-3784AD5D1755}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TT3D.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{391DA34F-8086-4E24-9013-16D686C6CF10}</UniqueIdentifier>
+      <UniqueIdentifier>{289BC865-1313-46BD-8420-543B9A025D48}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TT3D">
-      <UniqueIdentifier>{38DC5E6E-2637-4BFD-8A64-B95416C4D01A}</UniqueIdentifier>
+      <UniqueIdentifier>{21810676-8E83-426C-B110-02D2F47B8E54}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TT3D\TT3D.Build.cs">
       <Filter>Source\TT3D</Filter>
@@ -39,32 +39,86 @@
       <Filter>Source\TT3D</Filter>
     </ClInclude>
     <Filter Include="Source\TT3D\Private">
-      <UniqueIdentifier>{955C16F4-5ADB-42A2-806B-8159F591AC0B}</UniqueIdentifier>
+      <UniqueIdentifier>{BDAEBAE4-062A-407E-A154-B527E36A339D}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\TT3D\Private\AimingComponent.cpp">
+      <Filter>Source\TT3D\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TT3D\Private\Cursor.cpp">
+      <Filter>Source\TT3D\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TT3D\Private\Launcher.cpp">
+      <Filter>Source\TT3D\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TT3D\Private\Projectile.cpp">
+      <Filter>Source\TT3D\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TT3D\Private\Tank.cpp">
+      <Filter>Source\TT3D\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TT3D\Private\TankAIController.cpp">
+      <Filter>Source\TT3D\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\TT3D\Private\TankPlayerController.cpp">
       <Filter>Source\TT3D\Private</Filter>
     </ClCompile>
-    <Filter Include="Source\TT3D\Public">
-      <UniqueIdentifier>{B1620013-4909-4907-A9D2-347694D8835B}</UniqueIdentifier>
+    <Filter Include="Source\TT3D\Private\Components">
+      <UniqueIdentifier>{F1A71AB0-BCCF-4D4C-B696-ABF31B676880}</UniqueIdentifier>
     </Filter>
-    <ClInclude Include="..\..\Source\TT3D\Public\TankPlayerController.h">
+    <ClCompile Include="..\..\Source\TT3D\Private\Components\FollowingMovementComponent.cpp">
+      <Filter>Source\TT3D\Private\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TT3D\Private\Components\TankMovementComponent.cpp">
+      <Filter>Source\TT3D\Private\Components</Filter>
+    </ClCompile>
+    <Filter Include="Source\TT3D\Public">
+      <UniqueIdentifier>{08484771-DB01-431E-863D-738A3513CF86}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\TT3D\Public\AimingComponent.h">
       <Filter>Source\TT3D\Public</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
+    <ClInclude Include="..\..\Source\TT3D\Public\Cursor.h">
+      <Filter>Source\TT3D\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TT3D\Public\Launcher.h">
+      <Filter>Source\TT3D\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TT3D\Public\Projectile.h">
+      <Filter>Source\TT3D\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\TT3D\Public\Tank.h">
       <Filter>Source\TT3D\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\TT3D\Public\TankAIController.h">
       <Filter>Source\TT3D\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\TT3D\Public\TankPlayerController.h">
+      <Filter>Source\TT3D\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\TT3D\Public\Components">
+      <UniqueIdentifier>{315FED5B-6CC1-40FF-90DF-080E675BC571}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\TT3D\Public\Components\FollowingMovementComponent.h">
+      <Filter>Source\TT3D\Public\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TT3D\Public\Components\TankMovementComponent.h">
+      <Filter>Source\TT3D\Public\Components</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\TT3D\Private\Tank.cpp">
-      <Filter>Source\TT3D\Private</Filter>
+    <ClInclude Include="..\..\Source\TT3D\Public\Components\OrientingComponent.h">
+      <Filter>Source\TT3D\Public\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TT3D\Public\Components\OrientingMovementComponent.h">
+      <Filter>Source\TT3D\Public\Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\TT3D\Private\Components\OrientingComponent.cpp">
+      <Filter>Source\TT3D\Private\Components</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\TT3D\Private\TankAIController.cpp">
-      <Filter>Source\TT3D\Private</Filter>
+    <ClCompile Include="..\..\Source\TT3D\Private\Components\OrientingMovementComponent.cpp">
+      <Filter>Source\TT3D\Private\Components</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

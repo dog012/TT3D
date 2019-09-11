@@ -13,9 +13,29 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TT3D_Tank_generated_h
 
-#define TT3D_Source_TT3D_Public_Tank_h_12_RPC_WRAPPERS
-#define TT3D_Source_TT3D_Public_Tank_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define TT3D_Source_TT3D_Public_Tank_h_12_INCLASS_NO_PURE_DECLS \
+#define TT3D_Source_TT3D_Public_Tank_h_14_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execFire) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Fire(); \
+		P_NATIVE_END; \
+	}
+
+
+#define TT3D_Source_TT3D_Public_Tank_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execFire) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Fire(); \
+		P_NATIVE_END; \
+	}
+
+
+#define TT3D_Source_TT3D_Public_Tank_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATank(); \
 	friend struct Z_Construct_UClass_ATank_Statics; \
@@ -24,7 +44,7 @@ public: \
 	DECLARE_SERIALIZER(ATank)
 
 
-#define TT3D_Source_TT3D_Public_Tank_h_12_INCLASS \
+#define TT3D_Source_TT3D_Public_Tank_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesATank(); \
 	friend struct Z_Construct_UClass_ATank_Statics; \
@@ -33,7 +53,7 @@ public: \
 	DECLARE_SERIALIZER(ATank)
 
 
-#define TT3D_Source_TT3D_Public_Tank_h_12_STANDARD_CONSTRUCTORS \
+#define TT3D_Source_TT3D_Public_Tank_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ATank(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATank) \
@@ -46,7 +66,7 @@ private: \
 public:
 
 
-#define TT3D_Source_TT3D_Public_Tank_h_12_ENHANCED_CONSTRUCTORS \
+#define TT3D_Source_TT3D_Public_Tank_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ATank(ATank&&); \
@@ -57,26 +77,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATank); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ATank)
 
 
-#define TT3D_Source_TT3D_Public_Tank_h_12_PRIVATE_PROPERTY_OFFSET
-#define TT3D_Source_TT3D_Public_Tank_h_9_PROLOG
-#define TT3D_Source_TT3D_Public_Tank_h_12_GENERATED_BODY_LEGACY \
+#define TT3D_Source_TT3D_Public_Tank_h_14_PRIVATE_PROPERTY_OFFSET
+#define TT3D_Source_TT3D_Public_Tank_h_11_PROLOG
+#define TT3D_Source_TT3D_Public_Tank_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TT3D_Source_TT3D_Public_Tank_h_12_PRIVATE_PROPERTY_OFFSET \
-	TT3D_Source_TT3D_Public_Tank_h_12_RPC_WRAPPERS \
-	TT3D_Source_TT3D_Public_Tank_h_12_INCLASS \
-	TT3D_Source_TT3D_Public_Tank_h_12_STANDARD_CONSTRUCTORS \
+	TT3D_Source_TT3D_Public_Tank_h_14_PRIVATE_PROPERTY_OFFSET \
+	TT3D_Source_TT3D_Public_Tank_h_14_RPC_WRAPPERS \
+	TT3D_Source_TT3D_Public_Tank_h_14_INCLASS \
+	TT3D_Source_TT3D_Public_Tank_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define TT3D_Source_TT3D_Public_Tank_h_12_GENERATED_BODY \
+#define TT3D_Source_TT3D_Public_Tank_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TT3D_Source_TT3D_Public_Tank_h_12_PRIVATE_PROPERTY_OFFSET \
-	TT3D_Source_TT3D_Public_Tank_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	TT3D_Source_TT3D_Public_Tank_h_12_INCLASS_NO_PURE_DECLS \
-	TT3D_Source_TT3D_Public_Tank_h_12_ENHANCED_CONSTRUCTORS \
+	TT3D_Source_TT3D_Public_Tank_h_14_PRIVATE_PROPERTY_OFFSET \
+	TT3D_Source_TT3D_Public_Tank_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	TT3D_Source_TT3D_Public_Tank_h_14_INCLASS_NO_PURE_DECLS \
+	TT3D_Source_TT3D_Public_Tank_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
